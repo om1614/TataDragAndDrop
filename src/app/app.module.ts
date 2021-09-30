@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import {ReactiveFormsModule,FormsModule} from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {RouterModule,Routes} from '@angular/router'
 
 
 
@@ -14,7 +15,10 @@ import { TaskAreaComponent } from './task-area/task-area.component';
 import { UpdateTaskComponent } from './update-task/update-task.component';
 
 
-
+const custom_routes:Routes=[
+  {path:'', component:TaskAreaComponent},
+  {path:'update/:id', component:UpdateTaskComponent}
+]
 
 
 
@@ -35,6 +39,7 @@ import { UpdateTaskComponent } from './update-task/update-task.component';
     FormsModule,
     MatButtonModule,
     MatIconModule,
+    RouterModule.forRoot(custom_routes)
     
   ],
   providers: [],

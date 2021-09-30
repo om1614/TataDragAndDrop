@@ -1,1 +1,22 @@
-<p>update-task works!</p>
+<div class="row">
+    <div class="col-md-4 offset-md-4 mb-4">
+       
+        <form [formGroup]="editFormdata" (ngSubmit)="collection()">
+            <div class="form-group">
+              
+              <input type="text" class="form-control" placeholder="Update Task" formControlName="title">
+            </div>
+            <div class="form-group">
+              
+              <input type="text" class="form-control" placeholder="Description" formControlName="content">
+            </div>
+            <div class="form-group">
+              
+                <input type="text" class="form-control" placeholder="state" formControlName="state">
+              </div>
+    
+            <br>
+            <button type="submit" class="btn btn-primary"  mat-button color="primary">Update</button>
+          </form>
+    </div>
+</div>

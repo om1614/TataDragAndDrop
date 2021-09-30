@@ -20,7 +20,16 @@ getNotes():Observable<Todo[]>{
 
 
 AddTask(todo:Todo):Observable<Todo>{
-     return   this.http.post<Todo>(this.link,todo)
+     return this.http.post<Todo>(this.link,todo)
+}
+
+
+getcurrentTask(id){
+      return this.http.get(`${this.link}/${id}`)
+}
+
+updateTask(id,data){
+  return this.http.put(`${this.link}/${id}`,data)
 }
 
 

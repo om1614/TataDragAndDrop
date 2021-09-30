@@ -27,7 +27,7 @@
             <div cdkDropList class="example-list" #todoList="cdkDropList" [cdkDropListData]="todos"
                 [cdkDropListConnectedTo]="[doingList,doneList]" (cdkDropListDropped)="drop($event)">
                 <div class="example-box" *ngFor="let todo of todos" cdkDrag [cdkDragData]='todo'>
-                    {{todo.title}} :{{todo.content}} 
+                   {{todo.id}} : {{todo.title}} :{{todo.content}}
                       
                 <button mat-icon-button color="primary">
                     <a routerLink="/update/{{todo.id}}">

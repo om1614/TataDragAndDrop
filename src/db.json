@@ -1,0 +1,102 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Go to work",
+      "state": "todo",
+      "content": " not ok"
+    },
+    {
+      "id": 2,
+      "title": "Go home",
+      "state": "todo",
+      "content": " not ok"
+    },
+    {
+      "id": 3,
+      "title": "Fall a sleep",
+      "state": "todo",
+      "content": " not ok"
+    },
+    {
+      "id": 4,
+      "title": "Get up",
+      "state": "done",
+      "content": " ok"
+    },
+    {
+      "id": 5,
+      "title": "Pick up groceries",
+      "state": "done",
+      "content": " ok"
+    },
+    {
+      "id": 6,
+      "title": "Brush teeth",
+      "state": "done",
+      "content": " ok"
+    },
+    {
+      "id": 7,
+      "title": "Take a shower",
+      "state": "done",
+      "content": " ok"
+    },
+    {
+      "id": 8,
+      "title": "Check e-mail",
+      "state": "done",
+      "content": " ok"
+    },
+    {
+      "id": 9,
+      "title": "Walk dog",
+      "state": "done",
+      "content": " ok"
+    },
+    {
+      "id": 10,
+      "title": "folding clothes",
+      "state": "doing",
+      "content": " all ok"
+    },
+    {
+      "id": 11,
+      "title": "searching pen ",
+      "state": "doing",
+      "content": " all ok"
+    },
+    {
+      "title": "Talking with friends",
+      "state": "doing",
+      "content": " all ok",
+      "id": 12
+    },
+    {
+      "title": "working",
+      "content": "over",
+      "state": "doing",
+      "id": 13
+    },
+    {
+      "title": "add",
+      "content": "add",
+      "id": 14
+    },
+    {
+      "title": "",
+      "content": "",
+      "id": 15
+    },
+    {
+      "title": "",
+      "content": "",
+      "id": 16
+    },
+    {
+      "title": null,
+      "content": null,
+      "id": 17
+    }
+  ]
+}
